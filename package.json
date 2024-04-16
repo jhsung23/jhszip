@@ -2,7 +2,7 @@
   "name": "@jhszip/tools",
   "workspaces": {
     "packages": [
-      "packages/**"
+      "./packages/eslint"
     ]
   },
   "private": true,
