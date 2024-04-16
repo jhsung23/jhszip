@@ -7,7 +7,9 @@
   },
   "private": true,
   "scripts": {
-    "build": "ultra -r build"
+    "build": "ultra -r build",
+    "version": "yarn changeset version",
+    "publish": "yarn changeset publish"
   },
   "packageManager": "yarn@4.1.1",
   "devDependencies": {
