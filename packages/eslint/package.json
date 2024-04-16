@@ -1,0 +1,56 @@
+{
+  "name": "@jhszip/eslint-config",
+  "version": "0.0.1",
+  "description": "jhsung custom eslint config",
+  "packageManager": "yarn@4.1.1",
+  "type": "module",
+  "author": {
+    "email": "jhsung23@naver.com",
+    "name": "jhsung",
+    "url": "https://github.com/jhsung23"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "typescript",
+    "react"
+  ],
+  "main": "./dist/esm/bundle.js",
+  "files": [
+    "bundle.js",
+    "src",
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "source": "./dist/esm/bundle.js",
+      "require": "./dist/bundle.js",
+      "import": "./dist/esm/bundle.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "prebuild": "rm -rf dist"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^28.2.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "eslint-plugin-storybook": "^0.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  },
+  "devDependencies": {
+    "rollup": "^4.14.3"
+  }
+}
