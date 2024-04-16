@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "build": "ultra -r build",
-    "version": "changeset version && yarn install --no-immutable",
+    "version": "yarn changeset version && yarn install --no-immutable",
     "publish": "yarn changeset publish"
   },
   "packageManager": "yarn@4.1.1",
