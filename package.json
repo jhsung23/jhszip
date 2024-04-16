@@ -1,9 +1,11 @@
 {
   "name": "@jhszip/tools",
-  "workspaces": [
-    "./packages/eslint",
-    "./packages/prettier"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
+  "private": true,
   "scripts": {
     "build": "ultra -r build"
   },
