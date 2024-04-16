@@ -1,4 +1,20 @@
 {
-  "name": "jhszip",
-  "packageManager": "yarn@4.1.1"
+  "name": "@jhszip/tools",
+  "workspaces": [
+    "./packages/eslint",
+    "./packages/prettier"
+  ],
+  "scripts": {
+    "build": "ultra -r build"
+  },
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "ultra-runner": "^3.10.5"
+  },
+  "ultra": {
+    "concurrent": [
+      "build"
+    ]
+  }
 }
