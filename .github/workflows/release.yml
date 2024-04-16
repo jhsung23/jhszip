@@ -34,7 +34,7 @@ jobs:
             nodeModules-
 
       - name: Install Dependencies
-        run: yarn install --immutable
+        run: yarn
 
       - name: Build
         run: yarn build
