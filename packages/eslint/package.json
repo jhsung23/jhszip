@@ -1,6 +1,6 @@
 {
   "name": "@jhszip/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jhsung custom eslint config",
   "packageManager": "yarn@4.1.1",
   "type": "module",
