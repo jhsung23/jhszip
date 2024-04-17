@@ -1,5 +1,11 @@
 # @jhszip/eslint-config
 
+## 0.1.0
+
+### Minor Changes
+
+- cb63073: config rule 세분화 (react, next, storybook, import)
+
 ## 0.0.2
 
 ### Patch Changes
