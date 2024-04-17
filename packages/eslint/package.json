@@ -1,7 +1,7 @@
 {
-  "name": "@jhszip/eslint-config",
+  "name": "@jhszip/eslint-plugin",
   "version": "0.1.0",
-  "description": "Eslint config used by jhsung",
+  "description": "Eslint plugin used by jhsung",
   "packageManager": "yarn@4.1.1",
   "type": "module",
   "author": {

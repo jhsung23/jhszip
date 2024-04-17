@@ -1,7 +1,7 @@
-import _import from "./import";
-import _react from "./react";
-import _next from "./next";
-import _storybook from "./storybook";
+const _import = require("./import");
+const _react = require("./react");
+const _next = require("./next");
+const _storybook = require("./storybook");
 
 module.exports = {
   configs: {
