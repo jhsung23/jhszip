@@ -1,5 +1,11 @@
 # @jhszip/eslint-config
 
+## 0.1.1
+
+### Patch Changes
+
+- 92d0f43: 패키지 이름 변경
+
 ## 0.1.0
 
 ### Minor Changes
