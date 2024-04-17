@@ -36,9 +36,6 @@ jobs:
       - name: Install Dependencies
         run: yarn
 
-      - name: Build
-        run: yarn build
-
       - name: Release
         id: changesets
         uses: changesets/action@v1
