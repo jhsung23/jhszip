@@ -366,9 +366,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jhszip/eslint-config@workspace:packages/eslint":
+"@jhszip/eslint-plugin@workspace:packages/eslint":
   version: 0.0.0-use.local
-  resolution: "@jhszip/eslint-config@workspace:packages/eslint"
+  resolution: "@jhszip/eslint-plugin@workspace:packages/eslint"
   dependencies:
     "@typescript-eslint/eslint-plugin": "npm:^7.6.0"
     "@typescript-eslint/parser": "npm:^7.6.0"
