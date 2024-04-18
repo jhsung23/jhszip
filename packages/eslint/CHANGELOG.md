@@ -1,5 +1,11 @@
 # @jhszip/eslint-config
 
+## 0.1.3
+
+### Patch Changes
+
+- 4b1791d: fix error
+
 ## 0.1.2
 
 ### Patch Changes
