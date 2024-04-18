@@ -21,7 +21,7 @@ module.exports = {
             position: "after",
           },
           {
-            patternOptions: "./*",
+            pattern: "./*",
             group: "internal",
             position: "after",
           },
