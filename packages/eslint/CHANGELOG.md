@@ -1,5 +1,11 @@
 # @jhszip/eslint-config
 
+## 0.1.2
+
+### Patch Changes
+
+- 6106ea9: cjs로 변경
+
 ## 0.1.1
 
 ### Patch Changes
