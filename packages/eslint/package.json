@@ -3,7 +3,6 @@
   "version": "0.1.1",
   "description": "Eslint plugin used by jhsung",
   "packageManager": "yarn@4.1.1",
-  "type": "module",
   "author": {
     "email": "jhsung23@naver.com",
     "name": "jhsung",
