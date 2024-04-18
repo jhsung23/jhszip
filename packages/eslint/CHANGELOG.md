@@ -1,5 +1,11 @@
 # @jhszip/eslint-config
 
+## 0.1.4
+
+### Patch Changes
+
+- 15081ee: patternOptions -> pattern
+
 ## 0.1.3
 
 ### Patch Changes
