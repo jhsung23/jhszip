@@ -1,5 +1,11 @@
 # @jhszip/eslint-config
 
+## 1.0.2
+
+### Patch Changes
+
+- installation and usage
+
 ## 1.0.1
 
 ### Patch Changes
