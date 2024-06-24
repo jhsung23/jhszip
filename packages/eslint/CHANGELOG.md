@@ -1,5 +1,17 @@
 # @jhszip/eslint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- publish config 수정
+
+## 1.0.0
+
+### Major Changes
+
+- import/next/react 린트 규칙 수정
+
 ## 0.1.4
 
 ### Patch Changes

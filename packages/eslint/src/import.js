@@ -9,7 +9,7 @@ module.exports = {
   plugins: ["import"],
   rules: {
     "@typescript-eslint/no-unused-vars": "warn",
-    "import/no-unresolved": "error",
+    "import/no-unresolved": "off",
     "import/order": [
       "error",
       {
@@ -18,6 +18,11 @@ module.exports = {
           {
             pattern: "{react}",
             group: "builtin",
+            position: "after",
+          },
+          {
+            pattern: "@/**",
+            group: "external",
             position: "after",
           },
           {

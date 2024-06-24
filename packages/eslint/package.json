@@ -1,6 +1,6 @@
 {
   "name": "@jhszip/eslint-plugin",
-  "version": "0.1.4",
+  "version": "1.0.1",
   "description": "Eslint plugin used by jhsung",
   "packageManager": "yarn@4.1.1",
   "author": {
@@ -21,6 +21,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jhsung23/jhszip.git#main"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^7.6.0",

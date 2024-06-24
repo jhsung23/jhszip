@@ -20,5 +20,6 @@
     "concurrent": [
       "build"
     ]
-  }
+  },
+  "version": ""
 }
